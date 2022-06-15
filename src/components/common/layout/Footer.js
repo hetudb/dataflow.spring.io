@@ -15,9 +15,9 @@ const Footer = () => (
               <a
                 target='_blank'
                 rel='noreferrer noopener'
-                href='https://www.vmware.com/'
+                href='https://www.hetudb.com/'
               >
-                VMware
+               HetuDB
               </a>
             </span>
           </div>
@@ -26,38 +26,38 @@ const Footer = () => (
               <a
                 target='_blank'
                 rel='noreferrer noopener'
-                href='https://github.com/spring-cloud/spring-cloud-dataflow'
+                href='https://github.com/hetudb/hetu'
               >
                 <IconGithub className='github' />
               </a>
               <a
                 target='_blank'
                 rel='noreferrer noopener'
-                href='https://gitter.im/spring-cloud/spring-cloud-dataflow'
+                href='https://gitter.im/hetudb/hetu'
               >
                 <IconGitter className='gitter' />
               </a>
               <a
                 target='_blank'
                 rel='noreferrer noopener'
-                href='https://stackoverflow.com/questions/tagged/spring-cloud-dataflow'
+                href='https://stackoverflow.com/questions/tagged/hetudb'
               >
                 <IconStackOverflow className='stackoverflow' />
               </a>
             </div>
             <div className='copyright'>
               <p>
-                © 2013-{new Date().getFullYear()} VMware, Inc. or its
+                © 2013-{new Date().getFullYear()} HetuDB, Org. or its
                 affiliates.
               </p>
-              <p>Spring Cloud Data Flow is under the Apache 2.0 license.</p>
+              <p>HetuDB is under the Apache 2.0 license.</p>
             </div>
             <ul>
               <li>
                 <a
                   target='_blank'
                   rel='noreferrer noopener'
-                  href='https://www.vmware.com/help/legal.html'
+                  href='https://www.hetudb.com/help/legal.html'
                 >
                   Terms of service
                 </a>
@@ -66,7 +66,7 @@ const Footer = () => (
                 <a
                   target='_blank'
                   rel='noreferrer noopener'
-                  href='https://www.vmware.com/help/privacy.html'
+                  href='https://www.hetudb.com/help/privacy.html'
                 >
                   Privacy
                 </a>

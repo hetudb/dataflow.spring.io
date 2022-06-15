@@ -19,14 +19,14 @@ const IndexPage = () => (
           </div>
           <div className='text'>
             <p className='description'>
-              Microservice based <strong>Streaming</strong> and{' '}
-              <strong>Batch</strong> data processing for{' '}
+              HetuDB is a <strong>Real-Time</strong> and{' '}
+              <strong>Serverless</strong> OLAP database management system for{' '}
               <a
-                href='https://www.cloudfoundry.org/'
+                href='https://www.docker.com/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Cloud Foundry
+                Docker Compose
               </a>{' '}
               and{' '}
               <a
@@ -39,16 +39,19 @@ const IndexPage = () => (
             </p>
             <ul className='links'>
               <li>
-                <strong>Develop and test microservices</strong> for data
-                integration that do one thing and do it well
+                Simple <strong>Multi-Modal APIs</strong> for
+                Rust/Python/Java/R/SQL
               </li>
               <li>
-                Use <strong>prebuilt microservices</strong> to kick start
-                development
+                Feature-rich <strong>transactions, persistence</strong> for
+                storage engine
               </li>
               <li>
-                <strong>Compose complex topologies</strong> for streaming and
-                batch data pipelines
+                <strong>extensive SQL Plus & Vectorized engine in SIMD & Parallel query processing</strong> for
+                query engine
+              </li>
+              <li>
+                Combined with <strong>cloud object storage</strong> to provide extreme elasticity
               </li>
               <li>
                 <strong>Open Source</strong>, Apache Licensed
@@ -60,7 +63,7 @@ const IndexPage = () => (
               </Link>{' '}
               <a
                 className='button light icon'
-                href='https://github.com/spring-cloud/spring-cloud-dataflow'
+                href='https://github.com/hetudb/hetu'
                 target='_blank'
                 rel='noreferrer noopener'
               >
@@ -80,11 +83,10 @@ const IndexPage = () => (
             <a href='/docs/concepts/'>
               <h2>Flexible</h2>
               <p>
-                Write Stream and Batch processing logic in multiple programming
+                Using a cloud-native architecture, support for multi-module developer APIs provides great flexibility.<br />
+                Write dataframe in multiple programming
                 languages. <br />
-                Use your favorite messaging middleware for Stream processing.
-                <br />
-                Interact with popular monitoring systems and dashboards.
+                Support MySQL protocol, can connect with the powerful MySQL ecosystem
               </p>
               <p>
                 <span>Read more</span>
@@ -93,13 +95,11 @@ const IndexPage = () => (
           </div>
           <div className='col col-2'>
             <a href='/docs/concepts/tooling/'>
-              <h2>Familiar Tools</h2>
+              <h2>Fast</h2>
               <p>
-                Kick-start the solution for your use-case using our drag and
-                drop designer. <br />
-                Don’t like designers? Use pipes and filters based textual Domain
-                Specific Language instead. <br />
-                Integrate using RESTful APIs.
+                Support vectorized engine in SIMD. <br />
+                Parallel query processing on multi DAG engine, optimized for analytics. <br />
+                High-performance RowwiseRowBlock and RowwiseColumnarBlock format store: lstore and cstore.
               </p>
               <p>
                 <span>Read more</span>
@@ -108,12 +108,12 @@ const IndexPage = () => (
           </div>
           <div className='col col-3'>
             <a href='/getting-started/'>
-              <h2>Spring Opinionated</h2>
+              <h2>Feature-rich</h2>
               <p>
-                Are you already building microservices with Spring Boot?
+                Rich sql plus support for streaming and batch processing.<br />
+                Transactions, persistence for object store or local.<br />
                 <br />
-                Jump to the developer guide and extend the same learnings to
-                build streaming and batch applications.
+                External table direct Parquet & CSV & Json querying.
               </p>
               <p>
                 <span>Read more</span>

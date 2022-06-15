@@ -1,8 +1,8 @@
 {
-  "name": "spring-cloud-dataflow-website",
-  "description": "Spring Cloud Data Flow Website",
+  "name": "HetuDB-website",
+  "description": "HetuDB Website",
   "version": "0.0.1",
-  "author": "Spring Team",
+  "author": "Hetu Team",
   "keywords": [
     "gatsby",
     "algolia",
@@ -12,10 +12,10 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/spring-io/dataflow.spring.io"
+    "url": "https://github.com/hetudb/hetudb.github.io"
   },
   "bugs": {
-    "url": "https://github.com/spring-io/dataflow.spring.io/issues"
+    "url": "https://github.com/hetudb/hetudb.github.io/issues"
   },
   "scripts": {
     "clean": "rimraf .cache",

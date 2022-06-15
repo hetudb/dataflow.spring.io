@@ -35,7 +35,7 @@ jobs:
       - run: yarn run fix # Fix linting errors
       - run: yarn run lint # Linter
       - run: yarn build # yarn build
-      - run: echo "www.fusiondb.cn" > public/CNAME # generate website realm name for github.com
+      - run: echo "www.hetudb.com" > public/CNAME # generate website realm name for github.com
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

@@ -60,7 +60,7 @@ class Header extends React.Component {
               <Link to='/'>
                 <Logo />
                 <span>
-                  Spring Cloud <strong>Data Flow</strong>
+                  Hetu<strong>DB</strong>
                 </span>
               </Link>
             </div>

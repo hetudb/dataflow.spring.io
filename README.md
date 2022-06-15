@@ -1,21 +1,21 @@
 <p align="center">
-  <a href="https://dataflow.spring.io">
-    <img alt="Spring Data Flow Dashboard" title="Spring Data Flow Website" src="https://i.imgur.com/ZcoBGnU.png" width="450">
+  <a href="https://www.hetudb.com">
+    <img alt="Hetu Distributed Database Dashboard" title="Hetu Distributed Database Website" src="https://i.imgur.com/ZcoBGnU.png" width="450">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/spring-io/dataflow.spring.io/actions?query=workflow%3A%22Staging+Build+and+Deploy%22">
-  <img src="https://github.com/spring-io/dataflow.spring.io/workflows/Staging%20Build%20and%20Deploy/badge.svg?event=push" alt="Staging Build and Deploy">
+  <a href="https://github.com/hetudb/hetudb.github.io/actions?query=workflow%3A%22Staging+Build+and+Deploy%22">
+  <img src="https://github.com/hetudb/hetudb.github.io/workflows/Staging%20Build%20and%20Deploy/badge.svg?event=push" alt="Staging Build and Deploy">
   </a>
-  <a href="https://github.com/spring-io/dataflow.spring.io/actions?query=workflow%3A%22Staging+Check+Links%22">
-  <img src="https://github.com/spring-io/dataflow.spring.io/workflows/Staging%20Check%20Links/badge.svg?event=schedule" alt="Staging Check Links">
+  <a href="https://github.com/hetudb/hetudb.github.io/actions?query=workflow%3A%22Staging+Check+Links%22">
+  <img src="https://github.com/hetudb/hetudb.github.io/workflows/Staging%20Check%20Links/badge.svg?event=schedule" alt="Staging Check Links">
   </a>
 </p>
 
 ## Introduction
 
-This project contains the Markdown files that get automatically generated as documentation and guides for the [Spring Cloud Data Flow Microsite](https://dataflow.spring.io/) site.
+This project contains the Markdown files that get automatically generated as documentation and guides for the [HetuDB](https://hetudb.github.io/) site.
 
 ## Building
 
@@ -41,25 +41,37 @@ yarn serve          # Serve the prod build
 
 We welcome contributions!
 All documentation for this project is written using `Markdown`.
-An example segment from our [Stream Processing Getting Started Guide](https://dataflow.spring.io/docs/stream-developer-guides/getting-started/stream/) is shown below:
+An example segment from our [Getting Started Guide](https://hetudb.github.io/docs/developer-guides/getting-started/quicks/) is shown below:
 
-```markdown
-# Getting Started with Stream Processing
+# Getting Started with HetuDB 
 
-Spring Cloud Data Flow provides over 70 prebuilt streaming applications that you can use right away to implement common streaming use cases.
-In this guide we will use two of these applications to construct a simple data pipeline that produces data sent from an external http request and consumes that data by logging the payload to the terminal.
+HetuDB is a real-time OLAP database management system.
 
-Instructions for registering these prebuilt applications with Data Flow are provided in the [Installation guide](%currentPath%/installation/).
-```
+  * Simple: 
+    - Multi-Modal APIs for Rust/Python/Java/R/SQL
+    - Cloud native serverless On S3 or local
+  
+  * Feature-rich:
+      - Extensive SQL Plus support
+      - Transactions, persistence
+      - External Direct Parquet & CSV & Json querying
+  
+  * Fast
+      - Vectorized engine in SIMD 
+      - Parallel query processing
+      - Optimized for analytics
+      - High-performance RowwiseRowBlock and RowwiseColumnarBlock format store: lstore and cstore
+
+For quick start HetuDB, please refer to the  [Installation guide](%currentPath%/installation/).
 
 ## Q&A and issue tracking
 
-If you have any feedback, additions, or changes to the documentation or guides, don't hesitate to [add an issue](https://github.com/spring-io/dataflow.spring.io/issues).
+If you have any feedback, additions, or changes to the documentation or guides, don't hesitate to [add an issue](https://github.com/hetudb/hetudb.github.io/issues).
 
 ## Code of Conduct
 
-This project is governed by the [Spring Code of Conduct](CODE_OF_CONDUCT.adoc). By participating, you are expected to uphold this code of conduct. Please report unacceptable behavior to spring-code-of-conduct@pivotal.io.
+This project is governed by the [HetuDB Code of Conduct](CODE_OF_CONDUCT.adoc). By participating, you are expected to uphold this code of conduct. Please report unacceptable behavior to hetudb-code-of-conduct@pivotal.io.
 
 ## License
 
-The Spring Framework is released under version 2.0 of the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
+The HetuDB is released under version 2.0 of the [Apache License](https://www.apache.org/licenses/LICENSE-2.0).
