@@ -10,3 +10,6 @@ content/documentation/files/ext/
 content/files/ext/
 .DS_Store
 cloud-foundry/public
+.deploy_git
+setting-env.sh
+package-lock.json

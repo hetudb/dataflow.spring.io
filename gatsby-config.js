@@ -172,7 +172,7 @@ const plugins = [
       background_color: `#45968f`,
       theme_color: `#45968f`,
       display: `minimal-ui`,
-      icon: `src/images/dataflow-icon.png`,
+      icon: `src/images/hetu-icon.png`,
     },
   },
 ]
@@ -185,7 +185,7 @@ if (process.env.ALGOLIA_ADMIN_KEY) {
   plugins.push({
     resolve: `gatsby-plugin-algolia`,
     options: {
-      appId: `ZFB6X2VA6A`,
+      appId: `${process.env.GATSBY_ALGOLIA_APP_ID}`,
       apiKey: `${process.env.ALGOLIA_ADMIN_KEY}`,
       queries,
       chunkSize: 10000, // default: 1000
