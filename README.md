@@ -70,7 +70,7 @@ If you have any feedback, additions, or changes to the documentation or guides, 
 
 ## Code of Conduct
 
-This project is governed by the [HetuDB Code of Conduct](CODE_OF_CONDUCT.adoc). By participating, you are expected to uphold this code of conduct. Please report unacceptable behavior to hetudb-code-of-conduct@pivotal.io.
+This project is governed by the [HetuDB Code of Conduct](CODE_OF_CONDUCT.adoc). By participating, you are expected to uphold this code of conduct. Please report unacceptable behavior to hetudb-code-of-conduct@hetudb.com.
 
 ## License
 
