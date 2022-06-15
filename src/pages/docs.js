@@ -80,7 +80,6 @@ class DocsPage extends React.Component {
           description: get(edges, 'edges[7].node.frontmatter.description'),
           path: get(edges, 'edges[7].node.fields.path'),
         },
-        {},
       ],
     ]
     return (

@@ -43,26 +43,28 @@ We welcome contributions!
 All documentation for this project is written using `Markdown`.
 An example segment from our [Getting Started Guide](https://hetudb.github.io/docs/developer-guides/getting-started/quicks/) is shown below:
 
-# Getting Started with HetuDB 
+# Getting Started with HetuDB
 
 HetuDB is a real-time OLAP database management system.
 
-  * Simple: 
-    - Multi-Modal APIs for Rust/Python/Java/R/SQL
-    - Cloud native serverless On S3 or local
-  
-  * Feature-rich:
-      - Extensive SQL Plus support
-      - Transactions, persistence
-      - External Direct Parquet & CSV & Json querying
-  
-  * Fast
-      - Vectorized engine in SIMD 
-      - Parallel query processing
-      - Optimized for analytics
-      - High-performance RowwiseRowBlock and RowwiseColumnarBlock format store: lstore and cstore
+- Simple:
 
-For quick start HetuDB, please refer to the  [Installation guide](%currentPath%/installation/).
+  - Multi-Modal APIs for Rust/Python/Java/R/SQL
+  - Cloud native serverless On S3 or local
+
+- Feature-rich:
+
+  - Extensive SQL Plus support
+  - Transactions, persistence
+  - External Direct Parquet & CSV & Json querying
+
+- Fast
+  - Vectorized engine in SIMD
+  - Parallel query processing
+  - Optimized for analytics
+  - High-performance RowwiseRowBlock and RowwiseColumnarBlock format store: lstore and cstore
+
+For quick start HetuDB, please refer to the [Installation guide](%currentPath%/installation/).
 
 ## Q&A and issue tracking
 

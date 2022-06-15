@@ -2,14 +2,14 @@ const queries = require(`./utils/algolia-queries`)
 const versions = require('./content/versions.json')
 
 const siteMetadata = {
-  title: `Spring Cloud Data Flow`,
-  description: `Spring Cloud Data Flow puts powerful integration, batch and stream processing in the hands of the Java microservice developer`,
-  author: `@springcloud`,
-  siteUrl: `https://dataflow.spring.io`,
-  canonical: `https://dataflow.spring.io`,
+  title: `HetuDB`,
+  description: `HetuDB is a real-time OLAP database management system.`,
+  author: `@hetudb`,
+  siteUrl: `https://hetudb.com`,
+  canonical: `https://hetudb.com`,
   twitter: `@springcloud`,
-  image: `https://dataflow.spring.io/images/card.jpg`,
-  keywords: [`spring`, `cloud`, `dataflow`],
+  image: `https://hetudb.com/images/card.jpg`,
+  keywords: [`database`, `cloud`, `bigdata`, `hetudb`],
 }
 
 const arrVars = Object.keys(versions).map(versionId => {

@@ -6,7 +6,7 @@ git clone git@github.com:hetudb/hetudb.github.io.git .deploy_git
 
 cd .deploy_git/
 
-git pull origin master
+git pull origin gh_pages
 
 ## Deploying: git
 
@@ -25,4 +25,4 @@ git add .
 
 git commit -m "Site updated: $(date '+%Y-%m-%d %H:%M:%S')"
 
-git push -f origin master
+git push -f origin gh_pages
