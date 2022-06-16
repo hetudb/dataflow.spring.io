@@ -17,7 +17,7 @@ const Footer = () => (
                 rel='noreferrer noopener'
                 href='https://www.hetudb.com/'
               >
-               HetuDB
+                HetuDB
               </a>
             </span>
           </div>
@@ -47,8 +47,7 @@ const Footer = () => (
             </div>
             <div className='copyright'>
               <p>
-                © 2013-{new Date().getFullYear()} HetuDB, Org. or its
-                affiliates.
+                © 2013-{new Date().getFullYear()} HetuDB, Org or its affiliates.
               </p>
               <p>HetuDB is under the Apache 2.0 license.</p>
             </div>

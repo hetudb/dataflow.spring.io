@@ -47,11 +47,15 @@ const IndexPage = () => (
                 storage engine
               </li>
               <li>
-                <strong>extensive SQL Plus & Vectorized engine in SIMD & Parallel query processing</strong> for
-                query engine
+                <strong>
+                  extensive SQL Plus & Vectorized engine in SIMD & Parallel
+                  query processing
+                </strong>{' '}
+                for query engine
               </li>
               <li>
-                Combined with <strong>cloud object storage</strong> to provide extreme elasticity
+                Combined with <strong>cloud object storage</strong> to provide
+                extreme elasticity
               </li>
               <li>
                 <strong>Open Source</strong>, Apache Licensed
@@ -83,10 +87,12 @@ const IndexPage = () => (
             <a href='/docs/concepts/'>
               <h2>Flexible</h2>
               <p>
-                Using a cloud-native architecture, support for multi-module developer APIs provides great flexibility.<br />
-                Write dataframe in multiple programming
-                languages. <br />
-                Support MySQL protocol, can connect with the powerful MySQL ecosystem
+                Using a cloud-native architecture, support for multi-module
+                developer APIs provides great flexibility.
+                <br />
+                Write dataframe in multiple programming languages. <br />
+                Support MySQL protocol, can connect with the powerful MySQL
+                ecosystem
               </p>
               <p>
                 <span>Read more</span>
@@ -98,8 +104,10 @@ const IndexPage = () => (
               <h2>Fast</h2>
               <p>
                 Support vectorized engine in SIMD. <br />
-                Parallel query processing on multi DAG engine, optimized for analytics. <br />
-                High-performance RowwiseRowBlock and RowwiseColumnarBlock format store: lstore and cstore.
+                Parallel query processing on multi DAG engine, optimized for
+                analytics. <br />
+                High-performance RowwiseRowBlock and RowwiseColumnarBlock format
+                store: lstore and cstore.
               </p>
               <p>
                 <span>Read more</span>
@@ -110,8 +118,10 @@ const IndexPage = () => (
             <a href='/getting-started/'>
               <h2>Feature-rich</h2>
               <p>
-                Rich sql plus support for streaming and batch processing.<br />
-                Transactions, persistence for object store or local.<br />
+                Rich sql plus support for streaming and batch processing.
+                <br />
+                Transactions, persistence for object store or local.
+                <br />
                 <br />
                 External table direct Parquet & CSV & Json querying.
               </p>

@@ -6,5 +6,6 @@ summary: true
 auth: xiliu
 ---
 
-# storage 
-`Hetu Storage` - Hetu Distributed Storage. 
+# storage
+
+`Hetu Storage` - Hetu Distributed Storage.

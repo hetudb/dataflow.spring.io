@@ -6,5 +6,6 @@ summary: true
 auth: xiliu
 ---
 
-# query 
-`Hetu Query` - Hetu Distributed Compute Engine. 
+# query
+
+`Hetu Query` - Hetu Distributed Compute Engine.

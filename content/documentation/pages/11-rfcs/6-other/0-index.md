@@ -6,5 +6,6 @@ summary: true
 auth: xiliu
 ---
 
-# other 
+# other
+
 Other rfcs documentation

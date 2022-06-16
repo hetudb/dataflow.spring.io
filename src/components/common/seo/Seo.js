@@ -9,7 +9,15 @@ const Seo = ({ title, description, keywords }) => {
   const siteMetadata = {
     title: `HetuDB`,
     description: `HetuDB is a real-time OLAP database management system.`,
-    keywords: [`distributed-systems`, `cloud`, `sql`, `database`, `OLAP`, `serverless`, `lsm-tree`],
+    keywords: [
+      `distributed-systems`,
+      `cloud`,
+      `sql`,
+      `database`,
+      `OLAP`,
+      `serverless`,
+      `lsm-tree`,
+    ],
   }
   const meta = {
     ...siteMetadata,

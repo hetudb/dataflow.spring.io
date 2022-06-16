@@ -37,8 +37,8 @@ const CommunityPage = () => {
                 Hetu <strong>DB</strong>
               </h2>
               <p>
-               HetuDB is a Real-Time OLAP database management system 
-               for Docker Compose and Kubernetes
+                HetuDB is a Real-Time OLAP database management system for Docker
+                Compose and Kubernetes
               </p>
               <p className='social'>
                 <a
@@ -69,8 +69,8 @@ const CommunityPage = () => {
                 Hetu <strong>Cloud</strong>
               </h2>
               <p>
-                Hetu cloud is a multi-cloud environment that 
-                lets hetu run the way you like
+                Hetu cloud is a multi-cloud environment that lets hetu run the
+                way you like
               </p>
               <p className='social'>
                 <a
@@ -101,8 +101,8 @@ const CommunityPage = () => {
                 Hetu <strong>Async-Raft</strong>
               </h2>
               <p>
-                An implementation of the Raft distributed consensus 
-                protocol using the Tokio framework.
+                An implementation of the Raft distributed consensus protocol
+                using the Tokio framework.
               </p>
               <p className='social'>
                 <a
