@@ -20,7 +20,7 @@ const CommunityPage = () => {
             <h1>Community</h1>
             <p>
               All our projects are hosted on{' '}
-              <a href='https://GitHub.com/spring-cloud/'>GitHub</a>
+              <a href='https://GitHub.com/hetudb/'>GitHub</a>
             </p>
             <p className='love'>
               We{' '}
@@ -34,29 +34,29 @@ const CommunityPage = () => {
           <div className='page-colset'>
             <article>
               <h2>
-                Spring Cloud <strong>Data Flow</strong>
+                Hetu <strong>DB</strong>
               </h2>
               <p>
-                Microservice based Streaming and Batch data processing for Cloud
-                Foundry and Kubernetes
+               HetuDB is a Real-Time OLAP database management system 
+               for Docker Compose and Kubernetes
               </p>
               <p className='social'>
                 <a
-                  href='https://github.com/spring-cloud/spring-cloud-dataflow'
+                  href='https://github.com/hetudb/hetu'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
                   <IconGithub />
                 </a>
                 <a
-                  href='https://gitter.im/spring-cloud/spring-cloud-dataflow'
+                  href='https://gitter.im/hetudb/hetu'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
                   <IconGitter />
                 </a>
                 <a
-                  href='https://stackoverflow.com/questions/tagged/spring-cloud-dataflow'
+                  href='https://stackoverflow.com/questions/tagged/hetudb'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
@@ -66,29 +66,29 @@ const CommunityPage = () => {
             </article>
             <article>
               <h2>
-                Spring Cloud <strong>Stream</strong>
+                Hetu <strong>Cloud</strong>
               </h2>
               <p>
-                Event-driven Spring Boot microservices that communicate with one
-                another via messaging middleware
+                Hetu cloud is a multi-cloud environment that 
+                lets hetu run the way you like
               </p>
               <p className='social'>
                 <a
-                  href='https://github.com/spring-cloud/spring-cloud-stream'
+                  href='https://github.com/hetudb/hetucloud'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
                   <IconGithub />
                 </a>
                 <a
-                  href='https://gitter.im/spring-cloud/spring-cloud-stream'
+                  href='https://gitter.im/hetudb/hetucloud'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
                   <IconGitter />
                 </a>
                 <a
-                  href='https://stackoverflow.com/questions/tagged/spring-cloud-stream'
+                  href='https://stackoverflow.com/questions/tagged/hetucloud'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
@@ -98,22 +98,22 @@ const CommunityPage = () => {
             </article>
             <article>
               <h2>
-                Spring Cloud <strong>Task</strong>
+                Hetu <strong>Async-Raft</strong>
               </h2>
               <p>
-                Short-lived Spring Boot microservices that stores task execution
-                information in a database
+                An implementation of the Raft distributed consensus 
+                protocol using the Tokio framework.
               </p>
               <p className='social'>
                 <a
-                  href='https://github.com/spring-cloud/spring-cloud-task'
+                  href='https://github.com/hetudb/async-raft'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
                   <IconGithub />
                 </a>
                 <a
-                  href='https://stackoverflow.com/questions/tagged/spring-cloud-task'
+                  href='https://stackoverflow.com/questions/tagged/async-raft'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
@@ -126,23 +126,23 @@ const CommunityPage = () => {
           <div className='more'>
             <p>
               Several <strong>community members</strong> have made
-              implementations of Data Flow that deploy to other platforms.{' '}
+              implementations of HetuDB that deploy to other platforms.{' '}
               <strong>Thanks!</strong>
             </p>
             <p>
-              Discover Spring Cloud Dataflow for{' '}
+              Discover HetuDB for{' '}
               <a
                 target='_blank'
                 rel='noreferrer noopener'
-                href='https://github.com/donovanmuller/spring-cloud-dataflow-server-nomad'
+                href='https://github.com/hetudb'
               >
-                HashiCorp Nomad
+                Cloud ECS
               </a>
               ,{' '}
               <a
                 target='_blank'
                 rel='noreferrer noopener'
-                href='https://github.com/donovanmuller/spring-cloud-dataflow-server-openshift'
+                href='https://github.com/hetudb'
               >
                 Red Hat OpenShift
               </a>
@@ -150,9 +150,9 @@ const CommunityPage = () => {
               <a
                 target='_blank'
                 rel='noreferrer noopener'
-                href='https://github.com/trustedchoice/spring-cloud-dataflow-server-mesos'
+                href='https://github.com/hetudb'
               >
-                Apache Mesos
+                Google Kubernetes
               </a>
               .
             </p>
@@ -175,7 +175,7 @@ const CommunityPage = () => {
                 </p>
                 <p>
                   <a
-                    href='https://github.com/spring-cloud/spring-cloud-dataflow/#workspaces/scdf-combined--573b0ae28867c41f233bb0f7/board?repos=39469487,52819699,45694880,96455695,72460646,52798744,52803867,126892412,143091335,126892627,47708564,73841717,179378165'
+                    href='https://github.com/hetudb/hetu/#workspaces/scdf-combined--573b0ae28867c41f233bb0f7/board?repos=39469487,52819699,45694880,96455695,72460646,52798744,52803867,126892412,143091335,126892627,47708564,73841717,179378165'
                     className='button'
                   >
                     View the backlog

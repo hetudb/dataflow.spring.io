@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.hetudb.com">
-    <img alt="Hetu Distributed Database Dashboard" title="Hetu Distributed Database Website" src="https://i.imgur.com/ZcoBGnU.png" width="450">
+    <img alt="Hetu Distributed Database Dashboard" title="Hetu Distributed Database Website" src="http://www.hetudb.com/images/card.jpg" width="450">
   </a>
 </p>
 

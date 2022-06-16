@@ -7,9 +7,9 @@ import ImageSeo from './ImageSeo'
 
 const Seo = ({ title, description, keywords }) => {
   const siteMetadata = {
-    title: `Spring Cloud Data Flow`,
-    description: `Spring Cloud Data Flow puts powerful integration, batch and stream processing in the hands of the Java microservice developer`,
-    keywords: [`spring`, `cloud`, `dataflow`],
+    title: `HetuDB`,
+    description: `HetuDB is a real-time OLAP database management system.`,
+    keywords: [`distributed-systems`, `cloud`, `sql`, `database`, `OLAP`, `serverless`, `lsm-tree`],
   }
   const meta = {
     ...siteMetadata,
@@ -37,8 +37,8 @@ const Seo = ({ title, description, keywords }) => {
         <meta name='twitter:title' content={meta.title} />
         <meta name='twitter:description' content={meta.description} />
         <meta name='twitter:url' content={meta.siteUrl} />
-        <meta name='twitter:site' content='@springcentral' />
-        <meta name='twitter:creator' content='@springcentral' />
+        <meta name='twitter:site' content='@hetudb' />
+        <meta name='twitter:creator' content='@hetudb' />
       </Helmet>
       <ImageSeo image={meta.image} />
     </>
