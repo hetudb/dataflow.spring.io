@@ -7,3 +7,4 @@ auth: xiliu
 ---
 
 # storage 
+`Hetu Storage` - Hetu Distributed Storage. 

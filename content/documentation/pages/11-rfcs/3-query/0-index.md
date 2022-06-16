@@ -7,3 +7,4 @@ auth: xiliu
 ---
 
 # query 
+`Hetu Query` - Hetu Distributed Compute Engine. 

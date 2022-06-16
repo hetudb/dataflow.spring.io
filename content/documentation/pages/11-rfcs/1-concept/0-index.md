@@ -7,3 +7,5 @@ auth: xiliu
 ---
 
 # concept
+
+Track the development of the hetu database and be transparent to the community.
