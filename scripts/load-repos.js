@@ -6,8 +6,8 @@ import { cleanDir, createDir, execaOptions, info, log, main } from './utils'
 
 const MASTER_DIR = path.join(__dirname, '../content/documentation')
 const DATA_DIR = path.join(__dirname, '../data')
-const REPO = 'hetudb/dataflow.spring.io'
-const ANAME = 'dataflow.spring.io'
+const REPO = 'hetudb/hetudb.github.io'
+const ANAME = 'hetudb.github.io'
 const AEXT = '.tar.gz'
 const url = version => `https://github.com/${REPO}/archive/${version}${AEXT}`
 const loadRepos = async () => {
