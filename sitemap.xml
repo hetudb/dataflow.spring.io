@@ -74,10 +74,10 @@
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/commercial-feature-guides/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/recipes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/resources/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/resources/reference-docs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/resources/samples/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/applications/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/resources/reference-docs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/resources/faq/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/applications/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/applications/pre-packaged/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/applications/pre-packaged2x/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/applications/migration/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -95,8 +95,8 @@
 <url> <loc>https://hetudb.com/docs/2.6.x/installation/kubernetes/kubectl/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.6.x/installation/kubernetes/compatibility/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.6.x/stream-developer-guides/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://hetudb.com/docs/2.6.x/stream-developer-guides/streams/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.6.x/stream-developer-guides/getting-started/stream/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hetudb.com/docs/2.6.x/stream-developer-guides/streams/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.6.x/stream-developer-guides/streams/standalone-stream-rabbitmq/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.6.x/stream-developer-guides/streams/standalone-stream-kafka/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.6.x/stream-developer-guides/streams/data-flow-stream/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -165,7 +165,6 @@
 <url> <loc>https://hetudb.com/docs/2.6.x/recipes/functional-apps/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.6.x/recipes/functional-apps/scst-function-bindings/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.6.x/recipes/cloud-providers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://hetudb.com/docs/2.6.x/recipes/cloud-providers/gke-regional-clusters/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.7.x/installation/local/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.7.x/installation/local/docker/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.7.x/installation/local/docker-customize/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -298,9 +297,9 @@
 <url> <loc>https://hetudb.com/docs/installation/cloudfoundry/cf-local/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/installation/kubernetes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/installation/kubernetes/creating-a-cluster/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hetudb.com/docs/installation/kubernetes/helm/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/installation/kubernetes/kubectl/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/installation/kubernetes/compatibility/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://hetudb.com/docs/installation/kubernetes/helm/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/installation/migration/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/installation/migration/migration-2-7-to-2-8/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/stream-developer-guides/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -390,8 +389,8 @@
 <url> <loc>https://hetudb.com/docs/applications/migration/mail-source/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/applications/migration/mongodb-sink/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/applications/migration/cdc-debezium-source/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://hetudb.com/docs/applications/migration/mqtt-sink/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/applications/migration/mongodb-source/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hetudb.com/docs/applications/migration/mqtt-sink/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/applications/migration/mqtt-source/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/applications/migration/object-detection-processor/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/applications/migration/pgcopy-sink/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -413,6 +412,7 @@
 <url> <loc>https://hetudb.com/docs/applications/migration/file-source/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/applications/migration/filter-processor/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/applications/migration/ftp-sink/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hetudb.com/docs/2.6.x/recipes/cloud-providers/gke-regional-clusters/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/stream-developer-guides/streams/deployment/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/stream-developer-guides/streams/deployment/local/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/stream-developer-guides/streams/deployment/kubernetes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -437,6 +437,7 @@
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/rfcs/storage/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/rfcs/cli/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/rfcs/other/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/rfcs/other/template/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/stream-developer-guides/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/stream-developer-guides/getting-started/stream/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hetudb.com/docs/2.9.0.SNAPSHOT/stream-developer-guides/streams/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
