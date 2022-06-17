@@ -52,6 +52,9 @@ class Header extends React.Component {
             <Link activeClassName={'active'} partiallyActive to='/community/'>
               Community
             </Link>
+            <Link activeClassName={'active'} partiallyActive to='/rfcs/'>
+              RFCS
+            </Link>
           </div>
         </Menu>
         <div className='header'>

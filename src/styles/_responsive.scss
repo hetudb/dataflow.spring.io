@@ -244,6 +244,30 @@
     }
   }
 
+  .page-rfcs {
+    .layout-sidebars {
+      .sidebar {
+        display: none;
+      }
+      .main {
+        float: none;
+        width: 100%;
+
+        .main-content {
+          padding: 0;
+        }
+      }
+    }
+    ul.block-links li {
+      display: block;
+      padding: $spring-8points 0;
+      a {
+        display: block;
+        width: auto;
+      }
+    }
+  }
+
   .page-community {
     .page-colset {
       display: block;
